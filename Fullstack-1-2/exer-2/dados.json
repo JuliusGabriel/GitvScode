@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nome": "joestar",
+        "vitorias": 5,
+        "empate": 2,
+        "derrotas": 1
+    },
+    {
+        "id": 2,
+        "nome": "markim",
+        "vitorias": 4,
+        "empate": 1,
+        "derrotas": 3
+    },
+    {
+        "id": 3,
+        "nome": "Subaru",
+        "vitorias": 5,
+        "empate": 0,
+        "derrotas": 1
+    }
+]
