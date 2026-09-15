@@ -1,0 +1,15 @@
+{
+  "name": "exer-3",
+  "version": "1.0.0",
+  "main": "servidor/server.js",
+  "scripts": {
+    "dev": "node servidor/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
