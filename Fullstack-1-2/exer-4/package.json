@@ -1,0 +1,16 @@
+{
+  "name": "exer-4",
+  "version": "1.0.0",
+  "main": "Servidor/server.js",
+  "scripts": {
+    "dev": "node Servidor/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

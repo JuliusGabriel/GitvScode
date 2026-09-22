@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nome": "banana",
+        "unidade": "kg",
+        "precoUnitario": 2.55,
+        "quantidade": 2
+    },
+    {
+        "id": 2,
+        "nome": "repolho",
+        "unidade": "unidade",
+        "precoUnitario": 4.9,
+        "quantidade": 3
+    },
+    {
+        "id": 3,
+        "nome": "manga",
+        "unidade": "kg",
+        "precoUnitario": 12.5,
+        "quantidade": 1
+    }
+]
