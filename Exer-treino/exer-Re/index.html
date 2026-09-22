@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa eletronico</title>
+</head>
+<body>
+    <center>
+        <h1>Caixa</h1>
+
+        <label for="preco">Produto: </label><br><br>
+        <input type="number" id="preco" placeholder="Informe o preço do produto" min="1"><br><br>
+
+        <label for="quantidade">quantidade: </label><br><br>
+        <input type="number" id="quantidade" placeholder="quandos produtos quer" min="1"><br><br>
+
+        <label for="pagamento">Forma de pagamento: </label><br><br>
+        <select>
+            <option value="Pix"><p>Pix</p></option>
+            <option value="Cartão"><p>Cartão credito/debito</p></option>
+            <option value="Dinhero">Dinheiro</option>
+            </select>
+        </select><br><br>
+
+        <button id="button">Enviar</button>
+
+        <hr>
+
+        <h1>Resultado da Compra</h1>
+
+        <p id="Subtotal"></p>
+        <p id="Desconto"></p>
+        <p id="Total"></p>
+        <p id="Dindin"></p>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
