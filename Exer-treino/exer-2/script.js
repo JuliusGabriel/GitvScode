@@ -1,11 +1,47 @@
-const btnEnviar = Number (document.getElementById("btnEnviar"))
+function verificar(){
+    let numeros = [];
 
-btnEnviar.addEventlisten("click", function(){
-const numero1 = Number (document.getElementById("Numeros"))
-const numero2 = Number (document.getElementById("Numeros2"))
-const numero3 = Number (document.getElementById("Numeros3"))
-const numero4 = Number (document.getElementById("Numeros4"))
-const numero5 = Number (document.getElementById("Numeros5"))
+    numeros.push(Number(document.getElementById("n1").value));
+    numeros.push(Number(document.getElementById("n2").value));
+    numeros.push(Number(document.getElementById("n3").value));
+    numeros.push(Number(document.getElementById("n4").value));
+    numeros.push(Number(document.getElementById("n5").value));
 
-if
-})
+    let maior = numeros[0];
+    let menor = numeros[0];
+
+    let soma = 0;
+
+    let impar = 0;
+    let par = 0;
+
+    for (let i = 0; i < numeros.length; i++){
+        let numero = numeros[i];
+
+        soma = soma + numeros;
+
+        if (numero > maior){
+            maior = numero;
+        }
+
+        if (numero < menor){
+            menor = numero;
+        }
+
+        if (numero % 2 === 0){
+            par++;
+        }else {
+            impar++
+        }
+    }
+
+    let media = soma / numeros.length;
+
+    document.getElementById("resultado").innerHTML
+    "Maior número: " + maior +
+    "<br>Menor número: " + menor +
+    "<br>Soma: " + soma +
+    "<br>Média: "  + media +
+    "<br>Quantidade de Pares: " + par + 
+    "<br>Quantidade de Impares: " + impar;
+}
