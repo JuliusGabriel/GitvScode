@@ -16,7 +16,7 @@ const novoPedido = (req, res) => {
     if (req.body) {
         res.send("Boa, pedido enviado!");
         pedidos.push(req.body)
-    }else {
+    } else {
         res.send("Erro ao receber o pedido");
     }
 }
@@ -53,6 +53,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true}))
 const porta = 3000;
 
+app.put("/", alterarPedido);
 app.get("/", mostrarPedidos);
 app.post("/", novoPedido);
 app.delete("/:id", excluirPedido);
