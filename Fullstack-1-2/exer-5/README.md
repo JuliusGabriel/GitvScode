@@ -21,8 +21,8 @@ Projeto de CRUD em uma aula de exercícios em um sistema que pede somente backen
     "dataRegistro": "2026-09-03",
     "valor": 2800.00,
     "patrimonio": "PAT-00126"
-  }´´´
-
+  }
+ 
 [Sistema Dados.json](https://github.com/JuliusGabriel/GitvScode/blob/main/Fullstack-1-2/exer-5/dados.json)
 ---
 Tecnologias
