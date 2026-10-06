@@ -19,7 +19,7 @@ const excluirItem = (req, res) => {
 
     items.forEach((pedido, indice) => {
         if (pedido.id == id) {
-            pedido.splice(indice, 1);
+            items.splice(indice, 1);
         }
     });
 

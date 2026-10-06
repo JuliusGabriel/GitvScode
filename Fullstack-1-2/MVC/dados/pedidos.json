@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "cliente_id": 1,
+        "produto": "switch",
+        "preco": 1300,
+        "quantidade": 1
+    },
+    {
+        "id": 2,
+        "cliente_id": 1,
+        "produto": "Pc gamer",
+        "preco": 7000,
+        "quantidade": 1
+    },
+    {
+        "id": 3,
+        "cliente_id": 1,
+        "produto": "mesa gamer",
+        "preco": 1800,
+        "quantidade": 1
+    },
+    {
+        "id": 4,
+        "cliente_id": 1,
+        "produto": "cadeira gamer",
+        "preco": 2700,
+        "quantidade": 2
+    }
+]
