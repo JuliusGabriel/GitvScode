@@ -39,3 +39,15 @@ Configure as rotas específicas nos arquivos individuais (itens.js, clientes.js,
 Registre e agrupe as rotas no routes.js.
 
 Inicie a aplicação aplicando o arquivo routes.js ao servidor principal
+
+## GET
+
+<img width="1084" height="675" alt="Captura de tela 2026-10-07 112308" src="https://github.com/user-attachments/assets/24571457-cbb3-4c2f-9317-08a36a70e779" />
+
+<img width="1157" height="701" alt="Captura de tela 2026-10-07 112328" src="https://github.com/user-attachments/assets/7c60bc78-b934-4dee-9e0b-15b2c78d5d0a" />
+
+<img width="1086" height="481" alt="Captura de tela 2026-10-07 112343" src="https://github.com/user-attachments/assets/cf17aa41-a011-4088-9ae1-3b6b480d5747" />
+
+## Post
+
+<img width="1084" height="586" alt="Captura de tela 2026-10-07 112711" src="https://github.com/user-attachments/assets/82e9d888-5a33-4632-b4b4-7317e6012d5d" />
