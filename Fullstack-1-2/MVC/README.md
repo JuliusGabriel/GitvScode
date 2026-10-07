@@ -4,19 +4,19 @@ Este documento descreve a estrutura de organização de dados, utilizando arquiv
 
 Estrutura
 
-├── dados.json          # Base de dados central contendo os arrays principais
-├── itens.js            # Lógica e rotas referentes aos itens
-├── clientes.js         # Lógica e rotas referentes aos clientes
-├── pedidos.js          # Lógica e rotas referentes aos pedidos
-└── routes.js           # Centralizador que gerencia e exporta todas as rotas
+├── dados.json          
+├── itens.js            
+├── clientes.js        
+├── pedidos.js          
+└── routes.js           
 
 
 Estrutura de Dados.json
 
 {
-  "itens.dados": [],
-  "clientes.dados": [],
-  "pedidos.dados": []
+  "itens.dados"
+  "clientes.dados"
+  "pedidos.dados"
 }
 
 
