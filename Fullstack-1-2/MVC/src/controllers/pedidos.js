@@ -23,13 +23,12 @@ const alterar = (req, res) => {
     const id = req.params.id;
     const dados = req.body;
 
-    pedidos.forEach((pedido) => {
-        if (pedido.id == id) {
-            pedido.cpf = dados.cpf;
-            pedido.nome = dados.nome;
-        }
+     const busca = pedidos.find((dado) = pedido.id == id);
+
+    Object.keys(dados).forEach((i) => {
+        busca[i] = dados[i]
     })
-     res.json("Pedido alterado com sucesso");
+    res.json("Cliente alterado com sucesso");
 }
 
 const excluir = (req, res) => { 

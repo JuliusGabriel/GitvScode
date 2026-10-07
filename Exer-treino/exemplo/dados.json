@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nome": "pedro",
+        "email": "pedrinho@gmail.com",
+        "telefone": 1999874329,
+        "senha": "1234"
+    },
+    {
+        "id": 2,
+        "nome": "lucas",
+        "email": "mineluquinhas@gmail.com",
+        "telefone": 1999874320,
+        "senha": "1236"
+    },
+    {
+        "id": 3,
+        "nome": "eu",
+        "email": "fodaoeu@gmail.com",
+        "telefone": 1999874367,
+        "senha": "1230"
+    }
+]
