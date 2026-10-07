@@ -28,7 +28,7 @@ você pega os js e cria comandos pra cada uma em partes separadas orgqanizado
 
 2. routes.js
 
-O arquivo routes.js atua como o ponto central de despacho (router hub). Ele importa as rotas definidas individualmente em itens.js, clientes.js e pedidos.js e as consolida em um único exportador para ser utilizado pelo servidor principal da aplicação.
+o routes vai ser como uma rota do servidos pra cada js indicando e passando pro thunder indentificar junto da porta 
 
 Como Executar / Fluxo
 
