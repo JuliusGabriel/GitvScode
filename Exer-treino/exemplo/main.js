@@ -1,4 +1,4 @@
-/*const dados = require("./dados.json")
+const dados = require("./dados.json")
 
 const busca = dados.find((d) => d.id == 2);
 
@@ -18,7 +18,7 @@ chaves.forEach((chave) => {
     console.log(busca[chave])
 });
 
-console.log(busca);*/
+console.log(busca);
 
 //simulando back-end
 const alaterar = (req, res) => {
