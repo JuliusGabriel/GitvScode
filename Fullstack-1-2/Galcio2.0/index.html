@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galicio 2.0</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Opa oi</h1>
+        <p>Escolha seu protudo</p>
+    </header>
+
+    <main>
+        <section class="protudos">
+            <div class="protudo">
+                <h3>HeadSET</h3>
+                <p>preço: 75,90</p>
+
+                <button onclick="adicionarCarrinho('HeadSET', 75.90)">Comprar/add carrinho</button>
+            </div>
+
+            <div class="protudo">
+                <h3>Meias longas foot</h3>
+                <p>preço: 34,90</p>
+
+                <button onclick="adicionarCarrinho('Meias longas foot', 34.90)">Comprar/add carrinho</button>
+            </div>
+        </section>
+
+        <section class="carrinho">
+            <h2>Meu Carrinho</h2>
+
+            <ul id="listaCarrinho"></ul>
+            <ul id="total"> Total: R$0,00</ul>
+
+            <button onclick="FinalizarCompra()">Finalizar Compra</button>
+            <button onclick="apagarCarrinho()">apagar Compra</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
