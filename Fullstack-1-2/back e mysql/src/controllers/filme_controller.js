@@ -1,17 +1,19 @@
 const filme = require('../models/filme_model');
 
-const cadastrarFilmes = async (req, res) => {
+const cadastrar = async (req, res) => {
     try {
-        let retrono = await filme.cadastrarFilmes(req.body);
-        res.json(retrono).status(201).end();
-    }catch (error){
-         res.json({err: error.message }).status(500).end();
+        const {nome_filme, idioma, quantidade} = req.body;
+
+        let retorno = await filme.cadastrar(nome_filme, idioma, quantidade);
+        res.json(retorno).status(201).end();
+    }catch (err){
+         res.json({erro: err.message }).status(500).end();
     }
 };
 
-const listarFilmes = async (req, res) => {
+const listar = async (req, res) => {
     try {
-        const filmes = await filme.listarFilmes();
+        const filmes = await filme.listar();
         res.status(200).json(filmes).end();
     } catch (error) {
         res.status(500).json({ erro: error.message }).end();
@@ -19,6 +21,6 @@ const listarFilmes = async (req, res) => {
 };
 
 module.exports = {
-    cadastrarFilmes, 
-    listarFilmes
+    cadastrar, 
+    listar
 }

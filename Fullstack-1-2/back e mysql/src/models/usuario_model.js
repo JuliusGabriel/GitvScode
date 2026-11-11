@@ -14,12 +14,12 @@ const cadastrar = async ({nome,cpf,email,senha}) => {
 };
 
 const listar = async (req, res) => {
-    const [result] = await con.query("SELECT id, nome, email FROM usuarios;");
+    const [result] = await con.query("SELECT id, nome, email, cpf FROM usuarios;");
     return result;
 };
 
 const buscar = async (id) => {
-    const [result] = await con.query("SELECT id, nome, email FROM usuarios WHERE id = ?;", [id]);
+    const [result] = await con.query("SELECT id, nome, email, cpf FROM usuarios WHERE id = ?;", [id]);
     return result;
 };
 

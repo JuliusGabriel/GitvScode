@@ -2,8 +2,10 @@
 require('dotenv').config();
 
 const express = require('express');
+const cors = require('cors');
 
 const app = express();
+app.use(cors()); 
 
 const usuarioRoutes = require('./routes/usuario_routes.js');
 const filmeRouter = require('./routes/filme_routes.js');

@@ -1,19 +1,25 @@
-const fin = require('../config/db.js');
+const con = require('../config/db.js');
 
-const cadastrarFilmes = async (req, res) => {
-    const { titulo, diretor, ano, genero } = req.body;
-    const [result] = await fin.query("INSERT INTO filmes (titulo, diretor, ano, genero) VALUES (?, ?, ?, ?);",
-        [titulo, diretor, ano, genero]
+const cadastrar = async (nome_filme, idioma, quantidade ) => { 
+
+    const [result] = await con.query(
+        "INSERT INTO filmes VALUES (default, ?,?,?);",
+        [nome_filme, idioma, quantidade] 
     );
-    return result;
+    return{ 
+        id:result.insertId, 
+        nome_filme: nome_filme, 
+        idioma: idioma, 
+        quantidade: quantidade 
+    };
 }
 
-const listarFilmes = async (req, res) => {
-    const [filmes] = await fin.query("SELECT * FROM filmes;");
+const listar = async () => {
+    const [filmes] = await con.query("SELECT * FROM filmes;");
     return filmes;
 }
 
 module.exports = {
-    cadastrarFilmes, 
-    listarFilmes
+    cadastrar, 
+    listar
 }
